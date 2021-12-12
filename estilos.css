@@ -1,0 +1,111 @@
+/*Ejercicio 1 aquí*/
+
+*{
+    font-family: Arial;
+    text-shadow: #888888 5px 5px 5px;
+    }
+
+#logo{
+    /* 	Ejercicio 2.1 aquí */
+    margin-right: 200px;
+    float: left;
+}
+
+#cuerpo{
+	/* 	Ejercicio 2.1 aquí */
+	 float: left;
+	/* 	Ejercicio 3.1 aquí */
+    background-color: brown;
+    width: 75%;
+    border: 5px solid gray;
+    border-top-style: dashed;
+    border-bottom-style: dashed;
+    border-left-style: dashed;
+    border-right-style: dashed; 
+    border-top-right-radius: 30px 80px;
+    border-bottom-left-radius:30px 80px ;
+    
+}
+
+nav{
+	/* 	Ejercicio 2.2 aquí */
+    margin-top: 40px;
+    margin-bottom: 20px;
+    clear: both;
+}
+
+footer{
+    /* 	Ejercicio 2.2 aquí */
+	clear: both;
+	/* 	Ejercicio 3.3 aquí */
+    background-color: black;
+    color: white;
+    height: 75px;
+    text-align: center;
+    padding: 5px 20% 5px 20%;
+}
+
+#panelDerecho{
+	/* 	Ejercicio 2.3 aquí */
+    width: 20%;
+    float: right;
+    
+}
+
+fieldset {
+    /* 	Ejercicio 3.2 aquí */
+    size: 25%;
+    border: 0px;
+    display: inline;
+}
+
+#copylefth{
+	/* 	Ejercicio 4 aquí */
+    float: left;
+    font-weight: bold;
+    border: 3px solid white;
+    padding: 0px 5px;
+    border-radius: 25px;
+    margin-right: 3px;
+    margin-left: 22%;
+    transform: rotate(-180deg);
+}
+
+/* 	Ejercicio 5.1 aquí */
+#cuerpo form{
+    text-align: center;
+}
+
+/* 	Ejercicio 5.2 aquí */
+audio,video{
+    width: 100%;
+    box-shadow: 10px 10px 5px #888888;
+}
+
+/* 	Ejercicio 5.3 aquí */
+input[type="text"],select{
+    width: 100%;
+    height: 30px;
+    box-shadow: 10px 10px 5px #888888;
+}
+
+/* 	Ejercicio 5.4 aquí */
+input[type="text"]:focus{
+    font-weight: bold;
+}
+
+/* 	Ejercicio 5.5 aquí */
+#panelDerecho article:last-child{
+    padding: 0px 0px 30px 0px;
+}
+
+input[type="submit"]{box-shadow: 10px 10px 5px #888888; height: 30px;}
+form fieldset{text-align: left;}
+form fieldset:last-child{text-align: center;}
+#cuerpo #formTitle{text-align: center;}
+footer p:first-child {border-bottom: 1px solid white; margin-bottom: -10px;}
+footer p:last-child{margin-right: 20%;}
+.copylefth{width: 14px; height: 14px;}
+#banner{height: 20%;}
+#logo img{height: 100%;}
+#titulo{padding-top: 30px;}
